@@ -2,6 +2,9 @@ package com.lhj.mylibrary;
 
 import android.app.Application;
 
+import com.julyzeng.baserecycleradapterlib.BaseRecyclerAdapter;
+import com.julyzeng.baserecycleradapterlib.BaseViewHolder;
+
 /**
  * 项目：国民健康平台
  *
