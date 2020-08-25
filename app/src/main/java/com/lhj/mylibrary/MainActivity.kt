@@ -15,21 +15,17 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val adapter = object : BaseRecyclerAdapter<Any?>(this, null, R.layout.activity_main) {
-            override fun convert(
-                baseViewHolder: BaseViewHolder,
-                o: Any?
-            ) {
-            }
+
+
+       for (index in 1 downTo 100){
+
+       }
+        var array = arrayOf("","","")
+        for (index in array.indices){
         }
-
-        var map = HashMap<String,Any>()
-        MyApiManager().requestGoodsDetailed(map)
-            .subscribe({
-
-            },{
-
-            })
+        for (index in array){
+            index
+        }
     }
 }
 
